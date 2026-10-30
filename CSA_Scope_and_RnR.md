@@ -1,15 +1,15 @@
-# CCoE Team Scope and Roles & Responsibilities (Draft v0.1)
+# CSA Team Scope and Roles & Responsibilities (Draft v0.2)
 
-**Team:** CCoE (formerly Migration Enablement): working name to be confirmed
+**Team:** CSA (Cloud Solution Architect), a team within CCoE (formerly Migration Enablement). CSA is a temporary working name.
 **Assigned by:** Head of CCoE
 **Status:** First draft for discussion
-**Date:** 29 October 2026
+**Date:** 30 October 2026
 
 ---
 
 ## 1. Purpose
 
-With migration projects on hold, the team is repositioned to help SCBX Group design and run cloud solutions well. It does this by advising and reviewing designs across the Group, owning solution design for internal SCBX projects, and governing the SCBX cloud environment.
+With migration projects on hold, the CSA team (part of CCoE) is repositioned to help SCBX Group design and run cloud solutions well. It does this by advising and reviewing designs across the Group, owning solution design for internal SCBX projects, and governing the SCBX cloud environment.
 
 **Mission statement (draft):**
 > Help SCBX Group build secure, resilient, and cost-effective cloud solutions by reviewing designs against Group standards, owning solution architecture for SCBX projects, and governing the SCBX cloud environment.
@@ -45,7 +45,7 @@ With migration projects on hold, the team is repositioned to help SCBX Group des
 | Reference Architectures | **EA** | Team uses them as the starting point for designs and reviews, and proposes new patterns based on recurring review findings |
 | IT Operations (run, monitor, incident, change execution, patching, backup operation) | **IT Operations team** | Team approves designs and guardrails; IT Ops implements and operates |
 | Architecture decision authority for Group | **CADRB** | TDS output (Findings, Conditions, Sign-off) feeds CADRB; CADRB decides |
-| Cyber security standards and security exceptions | **Cyber / ISO** | Cyber participates in TDS; security exceptions are approved by Cyber |
+| Cyber security standards and security exceptions | **Cyber** | Cyber participates in TDS; security exceptions are approved by Cyber |
 | Application-layer design | **Project / application teams** | Out of scope except where it affects cloud infrastructure design |
 
 ---
@@ -151,7 +151,7 @@ See §6 for guidance on how this differs from Solution Architecture and the reco
 
 **Boundary with IT Operations:**
 
-| Activity | CCoE team | IT Operations |
+| Activity | CSA team | IT Operations |
 |---|---|---|
 | Define environment structure and guardrails | Owns | Consulted |
 | Approve firewall rule / IP / subscription requests | Approves | Informed |
@@ -198,7 +198,7 @@ The confusion is understandable: both roles use the same skills. The difference 
 
 R = Responsible, A = Accountable, C = Consulted, I = Informed
 
-| Activity | CCoE team | EA | Cyber / ISO | IT Ops | PortCo / Project owner | CADRB |
+| Activity | CSA team | EA | Cyber | IT Ops | PortCo / Project owner | CADRB |
 |---|---|---|---|---|---|---|
 | Author Group Standards and Reference Architectures | C | **A/R** | C (security) | I | I | I |
 | Maintain TDS checklist | **A/R** | C | C | — | I | I |
@@ -249,7 +249,7 @@ Suggested ways to stretch capacity:
 ## 10. Open Questions for Head of CCoE
 
 1. **Professional Services:** which option (A, B, or C in §6) should we pursue? Is chargeback to PortCos expected?
-2. **Team name:** should the team be renamed to reflect the new scope (e.g. "CCoE Cloud Architecture & Governance")?
+2. **Team name:** "CSA (Cloud Solution Architect)" is a temporary name. Should it become permanent, or should the name also reflect cloud environment ownership (e.g. "Cloud Solution Architecture & Governance")?
 3. **ITDR and Multi-cloud timing:** when will each be launched, and will EA provide the checklist inputs or should the team draft them?
 4. **Cloud environment approval authority:** does approval authority for firewall rules and IP allocation formally move to this team? Is there an existing approver to hand over from?
 5. **Approval SLAs:** what turnaround is expected for cloud environment requests?
